@@ -5,7 +5,7 @@ Overview
 
 In this study, we propose a state-of-the-art methodology for controlling electro-hydraulic systems. We have designed and tested a suite of linear and nonlinear control techniques, including PID, LQR, sliding mode control, model predictive control (MPC), and neural network MPC controllers. These controllers are optimized to effectively address the challenges posed by various loads, uncertainties, nonlinearities, internal leakage, chattering, and overshooting inherent in electro-hydraulic systems.
 
-The proposed approach has demonstrated its practicality and effectiveness through extensive simulation and experimental results. Comparative analysis reveals that the neural network MPC controller exhibits exceptional tracking performance and stability, with a smooth response and quick settling time.
+The proposed approach has demonstrated its practicality and effectiveness through extensive experimental results. Comparative analysis reveals that the neural network MPC controller exhibits exceptional tracking performance and stability, with a smooth response and quick settling time.
 
 Repository Contents
 This repository contains the following resources:
