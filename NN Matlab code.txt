@@ -1,0 +1,22 @@
+
+
+function neural_network_predictions(yp, u)
+    % Load the exported neural network model
+    load('your_exported_model.mat'); % Replace with the actual filename
+
+    % Define your input data (u)
+     u = double(u);
+     yp = double(yp);
+
+    % Combine yp and u into the input data for the neural network
+    input_data = [yp, u]; % You can define the input data as needed
+
+    % Perform predictions using the neural network
+    ym = sim(NN, input_data); % Replace 'NN' with the name of your neural network object
+
+    % You can return ym to be used as feedback in your LabVIEW MPC loop
+
+    % Apply control action to the electro-hydraulic system 
+
+end
+
